@@ -1,0 +1,27 @@
+{
+  "name": "cityloc-ar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "cross-env VITE_HTTPS=true vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "generate-cert": "node generate-cert.js"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.0",
+    "cross-env": "^10.1.0",
+    "selfsigned": "^5.5.0",
+    "svelte": "^4.2.18",
+    "svelte-check": "^3.8.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
